@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49da6771-92a8-4f6f-ac7a-9e6d58f307ab" name="디폴트 변경 목록" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pulmuoneshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/productList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/navigation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/config/bestList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/config/dealList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/config/indexHome.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/main/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/main/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/main/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/main/mutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/main/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Logo.spec.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1maCu7Lemt9INdrTMU2shu6yHao" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="49da6771-92a8-4f6f-ac7a-9e6d58f307ab" name="디폴트 변경 목록" comment="" />
+      <created>1609722534936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609722534936</updated>
+      <workItem from="1609722539617" duration="6156000" />
+      <workItem from="1609742865460" duration="10323000" />
+      <workItem from="1609767060176" duration="1195000" />
+      <workItem from="1609772439691" duration="2030000" />
+      <workItem from="1609775026267" duration="2440000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/layouts/default.vue</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
