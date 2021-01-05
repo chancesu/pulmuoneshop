@@ -82,7 +82,174 @@
                   </li>
                 </ul>
               </li>
+              <li>
+                <a href="#none">비건(Vegan)</a>
+                <ul>
+                  <li>
+                    <a href="#none">비건(Vegan)</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">식물성 단백질</a>
+                <ul>
+                  <li>
+                    <a href="#none">두부</a>
+                  </li>
+                  <li>
+                    <a href="#none">가공식품</a>
+                  </li>
+                  <li>
+                    <a href="#none">음료</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">친환경 식품</a>
+                <ul>
+                  <li>
+                    <a href="#none">음료</a>
+                  </li>
+                  <li>
+                    <a href="#none">간식</a>
+                  </li>
+                  <li>
+                    <a href="#none">반찬·간편식</a>
+                  </li>
+                  <li>
+                    <a href="#none">가공식품</a>
+                  </li>
+                  <li>
+                    <a href="#none">건강식품</a>
+                  </li>
+                </ul>
+              </li>
             </ul>
+          </li>
+          <li>
+            <a href="#none">두부·콩나물·달걀</a>
+            <ul>
+              <li>
+                <a href="#none">두부</a>
+                <ul>
+                  <li>
+                    <a href="#none">두부</a>
+                  </li>
+                  <li>
+                    <a href="#none">반찬</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">콩나물</a>
+                <ul>
+                  <li>
+                    <a href="#none">콩나물</a>
+                  </li>
+                  <li>
+                    <a href="#none">숙주나물</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">달걀</a>
+                <ul>
+                  <li>
+                    <a href="#none">달걀</a>
+                  </li>
+                  <li>
+                    <a href="#none">기타란</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">나또</a>
+                <ul>
+                  <li>
+                    <a href="#none">나또</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#none">만두·핫도그·떡볶이</a>
+            <ul>
+              <li>
+                <a href="#none">만두</a>
+                <ul>
+                  <li>
+                    <a href="#none">만두</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">핫도그</a>
+                <ul>
+                  <li>
+                    <a href="#none">핫도그</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">떡볶이</a>
+                <ul>
+                  <li>
+                    <a href="#none">떡볶이</a>
+                  </li>
+                  <li>
+                    <a href="#none">떡볶이떡·양념</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">피자</a>
+                <ul>
+                  <li>
+                    <a href="#none">피자</a>
+                  </li>
+                  <li>
+                    <a href="#none">브리또</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#none">과일·채소·쌀</a>
+          </li>
+          <li>
+            <a href="#none">정육·달걀·수산</a>
+          </li>
+          <li>
+            <a href="#none">밥·면·간편식</a>
+          </li>
+          <li>
+            <a href="#none">김치·반찬·국탕</a>
+          </li>
+          <li>
+            <a href="#none">간식·차·음료</a>
+          </li>
+          <li>
+            <a href="#none">양념·소스·유지</a>
+          </li>
+          <li>
+            <a href="#none">건강식품</a>
+          </li>
+          <li>
+            <a href="#none">일일배달녹즙·음료</a>
+          </li>
+          <li>
+            <a href="#none">이유식·유아식</a>
+          </li>
+          <li>
+            <a href="#none">잇슬림도시락</a>
+          </li>
+          <li>
+            <a href="#none">생활·주방·반려용품</a>
+          </li>
+          <li>
+            <a href="#none">뷰티용품</a>
           </li>
         </ul>
       </div>
@@ -188,30 +355,146 @@ name: "navigation",
               background: $white;
               line-height: 40px;
               padding:0 10px;
+              font-size: 14px;
+              font-weight: 400;
+              text-align: left;
+              vertical-align: middle;
             }
             ul{
               display: none;
             }
             &:hover,
             &.active{
+              >a{
+                font-weight: bold;
+                color:inherit;
+                &:hover{
+                  background-color:$category-light;
+                }
+              }
               ul{
                 position: absolute;
                 left:204px;
                 top:-2px;
+                bottom:0;
                 border:2px solid $main-color;
               }
               >ul{
                 display: block;
+                background: $main-color;
                 a{
                   background: $main-color;
                   color:$white;
-                }
-                li>ul{
-                  a{
-                    background: $white;
+                  font-weight: bold;
+                  &:hover{
+                    background-color:$white;
                     color:$basic;
                   }
                 }
+                li>ul{
+                  background: $white;
+                  a{
+                    background: $white;
+                    color:$basic;
+                    font-weight: normal;
+                  }
+                }
+              }
+            }
+          }
+          >li{
+            > a{
+              &:before{
+                content: "";
+                display: inline-block;
+                width:24px;
+                height:24px;
+                margin-right:17px;
+                background: url("#{$images}/sp_category.png") no-repeat 0 0;
+                vertical-align: -8px;
+              }
+            }
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3){
+              >a{
+                color:$category;
+                font-weight: bold;
+                &:hover{
+                  background-color:$main-color;
+                  color:$white;
+                }
+              }
+            }
+            &:nth-child(2){
+              >a{}
+              > a:before{
+                background-position: -26px 0;
+              }
+            }
+            &:nth-child(3){
+              > a:before{
+                background-position: -52px 0;
+              }
+            }
+            &:nth-child(4){
+              > a:before{
+                background-position: -78px 0;
+              }
+            }
+            &:nth-child(5){
+              > a:before{
+                background-position: 0 -26px;
+              }
+            }
+            &:nth-child(6){
+              >a:before{
+                background-position: -26px -26px;
+              }
+            }
+            &:nth-child(7){
+              >a:before{
+                background-position: -52px -26px;
+              }
+            }
+            &:nth-child(8){
+              >a:before{
+                background-position: -78px -26px;
+              }
+            }
+            &:nth-child(9){
+              >a:before{
+                background-position: 0 -52px;
+              }
+            }
+            &:nth-child(10){
+              >a:before{
+                background-position: -26px -52px;
+              }
+            }
+            &:nth-child(11){
+              >a:before{
+                background-position: -52px -52px;
+              }
+            }
+            &:nth-child(12){
+              >a:before{
+                background-position: -78px -52px;
+              }
+            }
+            &:nth-child(13){
+              >a:before{
+                background-position: 0 -78px;
+              }
+            }
+            &:nth-child(14){
+              >a:before{
+                background-position: -26px -78px;
+              }
+            }
+            &:nth-child(15){
+              >a:before{
+                background-position: -52px -78px;
               }
             }
           }
