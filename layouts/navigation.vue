@@ -1,44 +1,86 @@
 <template>
   <nav id="navigation">
+    <h2 class="a11y">카테고리 리스트</h2>
     <div class="container">
       <a href="#none">베스트</a>
       <a href="#none">지금세일</a>
       <a href="#none">녹즙/일일배달</a>
       <a href="#none">브랜드샵</a>
       <a href="#none">기획전/이벤트</a>
-      <div id="main-category" class="">
-        <button type="button" class="btn-category">모든 카테코리</button>
+      <div id="main-category" :class="{'active':categoryActive}">
+        <button
+            type="button"
+            class="btn-category"
+            @click="() => toggleCategroy()"
+        >모든 카테코리</button>
         <ul class="category-list">
           <li>
             <a href="#none">로하스</a>
             <ul>
               <li>
-                <a href="#none">test</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#none">로하스</a>
-            <ul>
-              <li>
-                <a href="#none">test</a>
-              </li>
-              <li>
-                <a href="#none">test</a>
+                <a href="#none">무농약·유기농농산</a>
                 <ul>
                   <li>
-                    <a href="#none">test</a>
+                    <a href="#none">과일·야채</a>
                   </li>
                   <li>
-                    <a href="#none">te서아아st</a>
+                    <a href="#none">건견과·버섯</a>
                   </li>
                   <li>
-                    <a href="#none">한글중아을 쓰자</a>
+                    <a href="#none">곡류·가공품</a>
+                  </li>
+                  <li>
+                    <a href="#none">저탄소인증식품</a>
+                  </li>
+                  <li>
+                    <a href="#none">선물세트</a>
+                  </li>
+                  <li>
+                    <a href="#none">무항생제·유기축산</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="#none">나이풀무원 입력</a>
+                <a href="#none">무항생제·유기축산</a>
+                <ul>
+                  <li>
+                    <a href="#none">소고기</a>
+                  </li>
+                  <li>
+                    <a href="#none">돼지고기</a>
+                  </li>
+                  <li>
+                    <a href="#none">닭·오리</a>
+                  </li>
+                  <li>
+                    <a href="#none">달걀</a>
+                  </li>
+                  <li>
+                    <a href="#none">가공식품</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">지속가능수산</a>
+                <ul>
+                  <li>
+                    <a href="#none">ASC·MSC</a>
+                  </li>
+                  <li>
+                    <a href="#none">유기·무항생제수산</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">동물복지</a>
+                <ul>
+                  <li>
+                    <a href="#none">달걀·기타란</a>
+                  </li>
+                  <li>
+                    <a href="#none">정육·양념육</a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </li>
@@ -50,7 +92,17 @@
 
 <script>
 export default {
-name: "navigation"
+name: "navigation",
+  data (){
+    return{
+      categoryActive: false
+    }
+  },
+  methods:{
+    toggleCategroy() {
+      this.categoryActive = !this.categoryActive
+    }
+  }
 }
 </script>
 

@@ -1,6 +1,8 @@
 <template>
   <div class="footer-wrap">
+    <h2 class="a11y">풀무원 안내</h2>
     <div class="footer-link">
+      <h3 class="a11y">풀무원 관련 링크</h3>
       <a href="#none">회사소개</a>
       <a href="#none">이용약관</a>
       <a href="#none" class="unique">개인정보처리방침</a>
@@ -14,6 +16,7 @@
       Family site
     </div>
     <footer>
+      <h3 class="a11y">풀무원 정보</h3>
       <strong class="footer-logo">
         풀무원
       </strong>

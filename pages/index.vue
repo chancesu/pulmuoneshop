@@ -1,17 +1,40 @@
 <template>
   <div class="main-container">
-    <swiper ref="bannerSwiper">
-      <swiper-slide v-for="(item, index) in items" :key="`banner-${index}`">
-          <img :src="item.banner_img.url"/>
-      </swiper-slide>
-      <div class="swiper-pagination" slot="pagination"></div>
-    </swiper>
+    <h2>메인 컨텐츠</h2>
+    <mainSwiper/>
+    <goodDeal/>
+    <bestProduct/>
+    <halfBanner/>
+    <newProduct/>
+    <pulmuoneProposal/>
+    <dailyDelivery/>
+    <mainEvent/>
+    <pulmuoneBrand/>
   </div>
 </template>
 
 <script>
+import mainSwiper from '@/home/mainSwiper';
+import goodDeal from "@/home/goodDeal";
+import bestProduct from "@/home/bestProduct";
+import halfBanner from "@/home/halfBanner";
+import newProduct from "@/home/newProduct";
+import pulmuoneProposal from "@/home/pulmuoneProposal";
+import dailyDelivery from "@/home/dailyDelivery";
+import mainEvent from "@/home/mainEvent";
+import pulmuoneBrand from "@/home/pulmuoneBrand";
 export default {
-
+  components:{
+    mainSwiper,
+    goodDeal,
+    bestProduct,
+    halfBanner,
+    newProduct,
+    pulmuoneProposal,
+    dailyDelivery,
+    mainEvent,
+    pulmuoneBrand
+  }
 }
 </script>
 

@@ -2,46 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49da6771-92a8-4f6f-ac7a-9e6d58f307ab" name="디폴트 변경 목록" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pulmuoneshop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/productList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/navigation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/config/bestList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/config/dealList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/config/indexHome.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/main/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/main/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/main/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/main/mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/main/state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Logo.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/bestProduct.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/dailyDelivery.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/goodDeal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/halfBanner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/mainEvent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/mainSwiper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/newProduct.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/pulmuoneBrand.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/home/pulmuoneProposal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/config/indexHome4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -101,6 +76,8 @@
       <workItem from="1609767060176" duration="1195000" />
       <workItem from="1609772439691" duration="2030000" />
       <workItem from="1609775026267" duration="2440000" />
+      <workItem from="1609806442661" duration="3966000" />
+      <workItem from="1609857261897" duration="2831000" />
     </task>
     <servers />
   </component>

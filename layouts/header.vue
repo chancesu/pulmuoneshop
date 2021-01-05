@@ -10,6 +10,7 @@
         <a href="#none">장바구니</a>
       </div>
       <form action="" id="search-wrap">
+        <h2 class="a11y">상품 검색</h2>
         <input type="text" v-model="searchKeyword">
         <button
             class="btn-search"
