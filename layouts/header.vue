@@ -11,7 +11,7 @@
       </div>
       <form action="" id="search-wrap">
         <h2 class="a11y">상품 검색</h2>
-        <input type="text" v-model="searchKeyword">
+        <input type="text" v-model="searchKeyword" title="상품검색">
         <button
             class="btn-search"
             @click="() => onClickSearch(this.searchKeyword)"
@@ -57,9 +57,9 @@ name: "header.vue",
 <style lang="scss" scoped>
 @import "./assets/variables.scss";
   #header{
-    padding:17px 0;
     box-sizing: border-box;
     .container{
+      padding:17px 0;
       position: relative;
     }
     .header-wrap{
@@ -76,7 +76,7 @@ name: "header.vue",
     }
     .util-menu{
       position: absolute;
-      top:0;
+      top:17px;
       right:0;
       font-size:12px;
       a{

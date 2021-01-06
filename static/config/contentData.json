@@ -40,9 +40,9 @@
         "MD_TP":"5",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":38,
-        "FILE_PATH":"bg_1_2_3_4_5_6_7_8.jpg",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/bg_1_2_3_4_5_6_7_8.jpg",
         "CATE_CD":" ",
-        "LINK_URL":"/event/halfSalePlan.do?srchSeq=22",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/event/halfSalePlan.do?srchSeq=22",
         "GRP_ORD_SEQ":4
       },
       {
@@ -54,7 +54,7 @@
         "MD_TP":"4",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":55,
-        "FILE_PATH":"3_신상품.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/3_신상품.png",
         "CATE_CD":" ",
         "LINK_URL":"undefined",
         "GRP_ORD_SEQ":5
@@ -68,7 +68,7 @@
         "MD_TP":"4",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":55,
-        "FILE_PATH":"20210104-주목이상품.jpg",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/20210104-주목이상품.jpg",
         "CATE_CD":" ",
         "LINK_URL":"https://www.pulmuoneshop.co.kr/goods/displayView.do?headCateCd=020002001&amp;headGoodsNo=16644",
         "GRP_ORD_SEQ":5
@@ -82,7 +82,7 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":57,
-        "FILE_PATH":"201701091210448921(1).png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/201701091210448921(1).png",
         "CATE_CD":" ",
         "LINK_URL":"undefined",
         "GRP_ORD_SEQ":6
@@ -96,7 +96,7 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":57,
-        "FILE_PATH":"겨울간식.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/겨울간식.png",
         "CATE_CD":" ",
         "LINK_URL":" ",
         "GRP_ORD_SEQ":6
@@ -110,7 +110,7 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":57,
-        "FILE_PATH":"요즘은-이런食_1.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/요즘은-이런食_1.png",
         "CATE_CD":" ",
         "LINK_URL":" ",
         "GRP_ORD_SEQ":6
@@ -124,7 +124,7 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":57,
-        "FILE_PATH":"따뜻한-한끼.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/따뜻한-한끼.png",
         "CATE_CD":" ",
         "LINK_URL":" ",
         "GRP_ORD_SEQ":6
@@ -138,7 +138,7 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":57,
-        "FILE_PATH":"건강습관_1.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/건강습관_1.png",
         "CATE_CD":" ",
         "LINK_URL":" ",
         "GRP_ORD_SEQ":6
@@ -152,7 +152,7 @@
         "MD_TP":"7",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":40,
-        "FILE_PATH":"5_일일배달.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/5_일일배달.png",
         "CATE_CD":" ",
         "LINK_URL":"undefined",
         "GRP_ORD_SEQ":7
@@ -166,9 +166,9 @@
         "MD_TP":"7",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":40,
-        "FILE_PATH":"05_delivery1.jpg",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/05_delivery1.jpg",
         "CATE_CD":" ",
-        "LINK_URL":"/order/order_self.do",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/order/order_self.do",
         "GRP_ORD_SEQ":7
       },
       {
@@ -180,9 +180,9 @@
         "MD_TP":"7",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":40,
-        "FILE_PATH":"05_delivery2.jpg",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/05_delivery2.jpg",
         "CATE_CD":" ",
-        "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&amp;srchSeq=12",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&amp;srchSeq=12",
         "GRP_ORD_SEQ":7
       },
       {
@@ -194,9 +194,9 @@
         "MD_TP":"7",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":40,
-        "FILE_PATH":"05_delivery3.jpg",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/05_delivery3.jpg",
         "CATE_CD":" ",
-        "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&amp;srchSeq=304",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&amp;srchSeq=304",
         "GRP_ORD_SEQ":7
       },
       {
@@ -208,7 +208,7 @@
         "MD_TP":"8",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":41,
-        "FILE_PATH":"6_기획전이벤트.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/6_기획전이벤트.png",
         "CATE_CD":" ",
         "LINK_URL":"undefined",
         "GRP_ORD_SEQ":8
@@ -222,7 +222,7 @@
         "MD_TP":"8",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":41,
-        "FILE_PATH":"메인-기획전_이벤트-배너.jpg",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/메인-기획전_이벤트-배너.jpg",
         "CATE_CD":" ",
         "LINK_URL":"http://www.pulmuoneshop.co.kr/gnb/specialPlan/listTab.do#3",
         "GRP_ORD_SEQ":8
@@ -236,9 +236,9 @@
         "MD_TP":"8",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":41,
-        "FILE_PATH":"06_event2_1.jpg",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/06_event2_1.jpg",
         "CATE_CD":" ",
-        "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&amp;srchSeq=101",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&amp;srchSeq=101",
         "GRP_ORD_SEQ":8
       },
       {
@@ -250,7 +250,7 @@
         "MD_TP":"8",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":41,
-        "FILE_PATH":"w_메인리스팅_반값.jpg",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/w_메인리스팅_반값.jpg",
         "CATE_CD":" ",
         "LINK_URL":"http://www.pulmuoneshop.co.kr/event/halfSalePlan.do?srchSeq=22",
         "GRP_ORD_SEQ":8
@@ -264,9 +264,9 @@
         "MD_TP":"8",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":41,
-        "FILE_PATH":"(풀샵)-20191021_아미오배너_Web_메인리스팅배너.jpg",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/(풀샵)-20191021_아미오배너_Web_메인리스팅배너.jpg",
         "CATE_CD":" ",
-        "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&amp;srchSeq=183",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&amp;srchSeq=183",
         "GRP_ORD_SEQ":8
       },
       {
@@ -278,9 +278,9 @@
         "MD_TP":"8",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":41,
-        "FILE_PATH":"06_event5.jpg",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/06_event5.jpg",
         "CATE_CD":" ",
-        "LINK_URL":"/gnb/nowSale/list.do",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/gnb/nowSale/list.do",
         "GRP_ORD_SEQ":8
       },
       {
@@ -292,9 +292,9 @@
         "MD_TP":"8",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":41,
-        "FILE_PATH":"20201015_케어시리즈_리스팅배너_1.jpg",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/20201015_케어시리즈_리스팅배너_1.jpg",
         "CATE_CD":" ",
-        "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&amp;srchSeq=100143",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&amp;srchSeq=100143",
         "GRP_ORD_SEQ":8
       },
       {
@@ -306,7 +306,7 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":33,
-        "FILE_PATH":"7_브랜드샵.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/7_브랜드샵.png",
         "CATE_CD":" ",
         "LINK_URL":"undefined",
         "GRP_ORD_SEQ":10
@@ -320,9 +320,9 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":33,
-        "FILE_PATH":"바른선_bi_1.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/바른선_bi_1.png",
         "CATE_CD":" ",
-        "LINK_URL":"/goods/displayList.do?headBrandCd=007",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/goods/displayList.do?headBrandCd=007",
         "GRP_ORD_SEQ":10
       },
       {
@@ -334,9 +334,9 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":33,
-        "FILE_PATH":"orga_bi.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/orga_bi.png",
         "CATE_CD":" ",
-        "LINK_URL":"/goods/displayList.do?headBrandCd=002",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/goods/displayList.do?headBrandCd=002",
         "GRP_ORD_SEQ":10
       },
       {
@@ -348,9 +348,9 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":33,
-        "FILE_PATH":"풀무원녹즙_bi(1)_1.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/풀무원녹즙_bi(1)_1.png",
         "CATE_CD":" ",
-        "LINK_URL":"/goods/displayList.do?headBrandCd=003",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/goods/displayList.do?headBrandCd=003",
         "GRP_ORD_SEQ":10
       },
       {
@@ -362,9 +362,9 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":33,
-        "FILE_PATH":"잇슬림_bi_1.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/잇슬림_bi_1.png",
         "CATE_CD":" ",
-        "LINK_URL":"/goods/displayList.do?headBrandCd=005",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/goods/displayList.do?headBrandCd=005",
         "GRP_ORD_SEQ":10
       },
       {
@@ -376,9 +376,9 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":33,
-        "FILE_PATH":"브랜드샵_베이비밀_신규_1.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/브랜드샵_베이비밀_신규_1.png",
         "CATE_CD":" ",
-        "LINK_URL":"/goods/displayList.do?headBrandCd=006",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/goods/displayList.do?headBrandCd=006",
         "GRP_ORD_SEQ":10
       },
       {
@@ -390,9 +390,9 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":33,
-        "FILE_PATH":"w_brandshop_bi_lohas_1.png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/w_brandshop_bi_lohas_1.png",
         "CATE_CD":" ",
-        "LINK_URL":"/goods/displayList.do?headBrandCd=010",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/goods/displayList.do?headBrandCd=010",
         "GRP_ORD_SEQ":10
       },
       {
@@ -404,9 +404,9 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":33,
-        "FILE_PATH":"이씰린_bi(1).png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/이씰린_bi(1).png",
         "CATE_CD":" ",
-        "LINK_URL":"/goods/displayList.do?headBrandCd=016",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/goods/displayList.do?headBrandCd=016",
         "GRP_ORD_SEQ":10
       },
       {
@@ -418,9 +418,9 @@
         "MD_TP":"9",
         "DISP_CONT":" ",
         "GRP_PN_SEQ":33,
-        "FILE_PATH":"아미오_bi(1).png",
+        "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/아미오_bi(1).png",
         "CATE_CD":" ",
-        "LINK_URL":"/goods/displayList.do?headBrandCd=017",
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/goods/displayList.do?headBrandCd=017",
         "GRP_ORD_SEQ":10
       }
     ]
@@ -428,8 +428,8 @@
   "leftBannerList":[
     {
       "DISP_DESC":"내맘대로 녹즙",
-      "FILE_PATH":"사이드배너2(1)_1_1.jpg",
-      "LINK_URL":"/order/order_self.do"
+      "FILE_PATH":"https://www.pulmuoneshop.co.kr/upload/images/display/사이드배너2(1)_1_1.jpg",
+      "LINK_URL":"https://www.pulmuoneshop.co.kr/order/order_self.do"
     }
   ]
 }

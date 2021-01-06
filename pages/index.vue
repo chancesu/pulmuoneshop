@@ -23,6 +23,9 @@ import pulmuoneProposal from "@/home/pulmuoneProposal";
 import dailyDelivery from "@/home/dailyDelivery";
 import mainEvent from "@/home/mainEvent";
 import pulmuoneBrand from "@/home/pulmuoneBrand";
+import { createNamespacedHelpers  } from 'vuex'
+
+const dealsHelper = createNamespacedHelpers('deals')
 export default {
   components:{
     mainSwiper,
@@ -34,6 +37,12 @@ export default {
     dailyDelivery,
     mainEvent,
     pulmuoneBrand
+  },
+  mounted() {
+    this.fetchContent();
+  },
+  methods: {
+    ...dealsHelper.mapActions(['fetchContent'])
   }
 }
 </script>

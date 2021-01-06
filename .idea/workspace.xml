@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49da6771-92a8-4f6f-ac7a-9e6d58f307ab" name="디폴트 변경 목록" comment="">
+      <change afterPath="$PROJECT_DIR$/components/productItem.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/bestProduct.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/bestProduct.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/goodDeal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/goodDeal.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/home/halfBanner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/halfBanner.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/main/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/main/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/newProduct.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/newProduct.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/productList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/config/bestList.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/config/bestList.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/config/indexHome4.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/config/contentData.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +74,9 @@
       <workItem from="1609772439691" duration="2030000" />
       <workItem from="1609775026267" duration="2440000" />
       <workItem from="1609806442661" duration="3966000" />
-      <workItem from="1609857261897" duration="8263000" />
+      <workItem from="1609857261897" duration="8515000" />
+      <workItem from="1609891852705" duration="1342000" />
+      <workItem from="1609941315404" duration="9823000" />
     </task>
     <servers />
   </component>

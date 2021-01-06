@@ -1,15 +1,71 @@
 <template>
   <div class="best-product">
-    <h3>베스트 TOP 10</h3>
+    <div class="container">
+      <h3 class="h3-title">베스트 TOP 10</h3>
+      <div class="item-list">
+        <template v-for="(item, index) in bestItems">
+          <productItem
+              :key="index"
+              :good-icon="false"
+              :goods-no="item.goodsNo"
+              :name="item.goodsNm"
+              :disp-name="item.dispGoodsNm"
+              :real-price="item.normalPrice"
+              :price="item.realSalePrice"
+              :sale-rate="item.displayRealRate"
+              :dailly-ship-y-n="item.delvIconFastYn"
+              :free-ship-y-n="item.delvIconFreeYn"
+              :direct-ship-y-n="item.delvIconDirectYn"
+              :thumbnail-url="item.mediumImagePath"
+              :thumbnail-size="194"
+          />
+        </template>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import { createNamespacedHelpers  } from 'vuex'
+
+const dealsHelper = createNamespacedHelpers('deals')
+import productItem from "@/productItem"
 export default {
-  name: "bestProduct"
+  name: "bestProduct",
+  components:{
+    productItem
+  },
+  computed: {
+    ...dealsHelper.mapGetters(['bestItems', 'pagination'])
+  },
+  watch: {
+    $route: {
+      immediate: true,
+      handler() {
+        this.fetchBest({ page: 1, pageSize: 10 })
+      }
+    }
+  },
+  methods: {
+    ...dealsHelper.mapActions(['fetchBest'])
+  }
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+  .best-product{
+    background:#f1f3ed;
+    padding:45px 0;
+    .h3-title{
+      font-weight: bold;
+    }
+    .item-list{
+      .product-item{
+        &:nth-child(1),
+        &:nth-child(6){
+          margin-left:0;
+        }
+      }
+    }
+  }
 </style>

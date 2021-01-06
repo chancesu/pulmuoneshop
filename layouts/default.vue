@@ -125,9 +125,21 @@ a{
   line-height: 9;
 }
 .container{
+  position: relative;
   max-width:1020px;
   min-width: 400px;
   margin:0 auto;
+}
+.item-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.h3-title{
+  font-size:24px;
+  font-weight: 300;
+  img{
+    vertical-align: middle;
+  }
 }
 
 </style>
