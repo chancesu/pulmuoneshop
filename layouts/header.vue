@@ -1,7 +1,9 @@
 <template>
   <header id="header">
     <div class="container header-wrap">
-      <h1 class="brand-bi">풀무원 샵</h1>
+      <h1 class="brand-bi">
+        <a href="/">풀무원 샵</a>
+      </h1>
       <div class="util-menu">
         <strong>이수진</strong>님
         <a href="#none">로그아웃</a>
@@ -11,10 +13,15 @@
       </div>
       <form action="" id="search-wrap">
         <h2 class="a11y">상품 검색</h2>
-        <input type="text" v-model="searchKeyword" title="상품검색">
+        <input type="text"
+               v-model="searchKeyword"
+               title="상품검색"
+               @keypress.enter.prevent="() => onClickSearch(searchKeyword)"
+        >
         <button
             class="btn-search"
-            @click="() => onClickSearch(this.searchKeyword)"
+            type="button"
+            @click="() => onClickSearch(searchKeyword)"
          >검색</button>
       </form>
     </div>
@@ -33,21 +40,13 @@ name: "header.vue",
   components: {
     navigation
   },
-  data(){
-    return{
-      searchKeyword: ""
-    }
-  },
-  mounted() {
-    console.log(this.updateSearchKeyword())
-  },
   methods:{
     ...homeModule.mapActions(["updateSearchKeyword"]),
     onClickSearch(keyword) {
       this.updateSearchKeyword(`${keyword}`);
       // nextTick is logic after step.
       this.$nextTick(() => {
-        this.searchKeyword = "";
+        this.$router.push("/search");
       });
     }
   }
@@ -73,6 +72,11 @@ name: "header.vue",
       text-indent:-1000em;
       font-size:0;
       line-height:9;
+      a{
+        display: block;
+        width:81px;
+        height:49px;
+      }
     }
     .util-menu{
       position: absolute;

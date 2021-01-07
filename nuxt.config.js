@@ -6,6 +6,9 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
+    htmlAttrs: {
+      lang: 'ko'
+    },
     title: '풀무원 공식 쇼핑몰 풀무원샵',
     meta: [
       { charset: 'utf-8' },

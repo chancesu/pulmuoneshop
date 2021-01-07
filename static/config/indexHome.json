@@ -8,7 +8,7 @@
         "DISP_DESC":"베이비밀",
         "BN_SEQ":1,
         "FILE_PATH":"pc_menuBanner.jpg",
-        "LINK_URL":"/goods/displayList.do?headBrandCd=16"
+        "LINK_URL":"https://www.pulmuoneshop.co.kr/goods/displayList.do?headBrandCd=16"
     },
     "bannerList":[
         {
@@ -19,7 +19,7 @@
             "DISP_DESC":"신년맞이 떡국",
             "BN_SEQ":3,
             "FILE_PATH":"w_big_banner_default.png",
-            "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&srchSeq=100184"
+            "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&srchSeq=100184"
         },
         {
             "RSV_TP":"N",
@@ -29,7 +29,7 @@
             "DISP_DESC":"올가 전단행사",
             "BN_SEQ":4,
             "FILE_PATH":"w_big_banner_default.png",
-            "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&srchSeq=100189"
+            "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&srchSeq=100189"
         },
         {
             "RSV_TP":"N",
@@ -39,7 +39,7 @@
             "DISP_DESC":"궁중요리",
             "BN_SEQ":5,
             "FILE_PATH":"w_big_banner_default.png",
-            "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&srchSeq=100183"
+            "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&srchSeq=100183"
         },
         {
             "RSV_TP":"N",
@@ -49,7 +49,7 @@
             "DISP_DESC":"집콕4",
             "BN_SEQ":6,
             "FILE_PATH":"w_big_banner_default.png",
-            "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&srchSeq=100128"
+            "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&srchSeq=100128"
         },
         {
             "RSV_TP":"N",
@@ -59,7 +59,7 @@
             "DISP_DESC":"e전단행사",
             "BN_SEQ":10,
             "FILE_PATH":"w_big_banner_default.png",
-            "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&srchSeq=100158"
+            "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&srchSeq=100158"
         },
         {
             "RSV_TP":"N",
@@ -69,7 +69,7 @@
             "DISP_DESC":"12월 녹즙행사",
             "BN_SEQ":13,
             "FILE_PATH":"w_big_banner_default.png",
-            "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&srchSeq=100182"
+            "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&srchSeq=100182"
         },
         {
             "RSV_TP":"N",
@@ -79,7 +79,7 @@
             "DISP_DESC":"면역력 기획전",
             "BN_SEQ":14,
             "FILE_PATH":"w_big_banner_default.png",
-            "LINK_URL":"/event/eventPlanView.do?srchTitle=plan&srchSeq=100186"
+            "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=plan&srchSeq=100186"
         },
         {
             "RSV_TP":"N",
@@ -89,14 +89,14 @@
             "DISP_DESC":"1월 출석체크",
             "BN_SEQ":17,
             "FILE_PATH":"w_big_banner_default.png",
-            "LINK_URL":"/event/eventPlanView.do?srchTitle=event&srchSeq=544"
+            "LINK_URL":"https://www.pulmuoneshop.co.kr/event/eventPlanView.do?srchTitle=event&srchSeq=544"
         }
     ],
     "leftBannerList":[
         {
             "DISP_DESC":"내맘대로 녹즙",
             "FILE_PATH":"사이드배너2(1)_1_1.jpg",
-            "LINK_URL":"/order/order_self.do"
+            "LINK_URL":"https://www.pulmuoneshop.co.kr/order/order_self.do"
         }
     ],
     "popList":[],

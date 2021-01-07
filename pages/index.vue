@@ -1,15 +1,13 @@
 <template>
   <div class="main-container">
-    <h2>메인 컨텐츠</h2>
+    <h2 class="a11y">메인 컨텐츠</h2>
     <mainSwiper/>
     <goodDeal/>
     <bestProduct/>
     <halfBanner/>
     <newProduct/>
-    <pulmuoneProposal/>
     <dailyDelivery/>
     <mainEvent/>
-    <pulmuoneBrand/>
   </div>
 </template>
 
@@ -19,10 +17,8 @@ import goodDeal from "@/home/goodDeal";
 import bestProduct from "@/home/bestProduct";
 import halfBanner from "@/home/halfBanner";
 import newProduct from "@/home/newProduct";
-import pulmuoneProposal from "@/home/pulmuoneProposal";
 import dailyDelivery from "@/home/dailyDelivery";
 import mainEvent from "@/home/mainEvent";
-import pulmuoneBrand from "@/home/pulmuoneBrand";
 import { createNamespacedHelpers  } from 'vuex'
 
 const dealsHelper = createNamespacedHelpers('deals')
@@ -33,10 +29,8 @@ export default {
     bestProduct,
     halfBanner,
     newProduct,
-    pulmuoneProposal,
     dailyDelivery,
-    mainEvent,
-    pulmuoneBrand
+    mainEvent
   },
   mounted() {
     this.fetchContent();

@@ -11,9 +11,10 @@
         <button
             type="button"
             class="btn-category"
-            @click="() => toggleCategroy()"
+            @mouseover="() => toggleCategroy()"
         >모든 카테코리</button>
-        <ul class="category-list">
+        <ul class="category-list"
+            @mouseleave="() => toggleCategroy()">
           <li>
             <a href="#none">로하스</a>
             <ul>
@@ -217,39 +218,519 @@
           </li>
           <li>
             <a href="#none">과일·채소·쌀</a>
+            <ul>
+              <li>
+                <a href="#none">테스트1</a>
+                <ul>
+                  <li>
+                    <a href="#none">테스트1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">테스트2</a>
+                <ul>
+                  <li>
+                    <a href="#none">테스트2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">테스트3</a>
+                <ul>
+                  <li>
+                    <a href="#none">테스트3</a>
+                  </li>
+                  <li>
+                    <a href="#none">테스트3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">테스트4</a>
+                <ul>
+                  <li>
+                    <a href="#none">테스트4</a>
+                  </li>
+                  <li>
+                    <a href="#none">테스트4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#none">정육·달걀·수산</a>
+            <ul>
+              <li>
+                <a href="#none">정육·달걀·수산 테스트1</a>
+                <ul>
+                  <li>
+                    <a href="#none">정육·달걀·수산 테스트1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">정육·달걀·수산 테스트2</a>
+                <ul>
+                  <li>
+                    <a href="#none">정육·달걀·수산 테스트2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">정육·달걀·수산 테스트3</a>
+                <ul>
+                  <li>
+                    <a href="#none">정육·달걀·수산 테스트3</a>
+                  </li>
+                  <li>
+                    <a href="#none">정육·달걀·수산 테스트3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">정육·달걀·수산 테스트4</a>
+                <ul>
+                  <li>
+                    <a href="#none">정육·달걀·수산 테스트4</a>
+                  </li>
+                  <li>
+                    <a href="#none">정육·달걀·수산 테스트4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#none">밥·면·간편식</a>
+            <ul>
+              <li>
+                <a href="#none">밥·면·간편식 테스트1</a>
+                <ul>
+                  <li>
+                    <a href="#none">밥·면·간편식 테스트1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">밥·면·간편식 테스트2</a>
+                <ul>
+                  <li>
+                    <a href="#none">밥·면·간편식 테스트2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">밥·면·간편식 테스트3</a>
+                <ul>
+                  <li>
+                    <a href="#none">밥·면·간편식 테스트3</a>
+                  </li>
+                  <li>
+                    <a href="#none">밥·면·간편식 테스트3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">밥·면·간편식 테스트4</a>
+                <ul>
+                  <li>
+                    <a href="#none">밥·면·간편식 테스트4</a>
+                  </li>
+                  <li>
+                    <a href="#none">밥·면·간편식 테스트4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#none">김치·반찬·국탕</a>
+            <ul>
+              <li>
+                <a href="#none">김치·반찬·국탕 테스트1</a>
+                <ul>
+                  <li>
+                    <a href="#none">김치·반찬·국탕 테스트1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">김치·반찬·국탕 테스트2</a>
+                <ul>
+                  <li>
+                    <a href="#none">김치·반찬·국탕 테스트2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">김치·반찬·국탕 테스트3</a>
+                <ul>
+                  <li>
+                    <a href="#none">김치·반찬·국탕 테스트3</a>
+                  </li>
+                  <li>
+                    <a href="#none">김치·반찬·국탕 테스트3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">김치·반찬·국탕 테스트4</a>
+                <ul>
+                  <li>
+                    <a href="#none">김치·반찬·국탕 테스트4</a>
+                  </li>
+                  <li>
+                    <a href="#none">김치·반찬·국탕 테스트4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#none">간식·차·음료</a>
+            <ul>
+              <li>
+                <a href="#none">간식·차·음료1</a>
+                <ul>
+                  <li>
+                    <a href="#none">간식·차·음료1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">간식·차·음료2</a>
+                <ul>
+                  <li>
+                    <a href="#none">간식·차·음료2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">간식·차·음료3</a>
+                <ul>
+                  <li>
+                    <a href="#none">간식·차·음료3</a>
+                  </li>
+                  <li>
+                    <a href="#none">간식·차·음료3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">간식·차·음료4</a>
+                <ul>
+                  <li>
+                    <a href="#none">간식·차·음료4</a>
+                  </li>
+                  <li>
+                    <a href="#none">간식·차·음료4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#none">양념·소스·유지</a>
+            <ul>
+              <li>
+                <a href="#none">양념·소스·유지 테스트1</a>
+                <ul>
+                  <li>
+                    <a href="#none">양념·소스·유지 테스트1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">양념·소스·유지 테스트2</a>
+                <ul>
+                  <li>
+                    <a href="#none">양념·소스·유지 테스트2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">양념·소스·유지 테스트3</a>
+                <ul>
+                  <li>
+                    <a href="#none">양념·소스·유지 테스트3</a>
+                  </li>
+                  <li>
+                    <a href="#none">양념·소스·유지 테스트3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">양념·소스·유지 테스트4</a>
+                <ul>
+                  <li>
+                    <a href="#none">양념·소스·유지 테스트4</a>
+                  </li>
+                  <li>
+                    <a href="#none">양념·소스·유지 테스트4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#none">건강식품</a>
+            <ul>
+              <li>
+                <a href="#none">건강식품 테스트1</a>
+                <ul>
+                  <li>
+                    <a href="#none">건강식품 테스트1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">건강식품 테스트2</a>
+                <ul>
+                  <li>
+                    <a href="#none">건강식품 테스트2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">건강식품 테스트3</a>
+                <ul>
+                  <li>
+                    <a href="#none">건강식품 테스트3</a>
+                  </li>
+                  <li>
+                    <a href="#none">건강식품 테스트3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">건강식품 테스트4</a>
+                <ul>
+                  <li>
+                    <a href="#none">건강식품 테스트4</a>
+                  </li>
+                  <li>
+                    <a href="#none">건강식품 테스트4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#none">일일배달녹즙·음료</a>
+            <ul>
+              <li>
+                <a href="#none">일일배달녹즙·음료 테스트1</a>
+                <ul>
+                  <li>
+                    <a href="#none">일일배달녹즙·음료 테스트1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">일일배달녹즙·음료 테스트2</a>
+                <ul>
+                  <li>
+                    <a href="#none">일일배달녹즙·음료 테스트2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">일일배달녹즙·음료 테스트3</a>
+                <ul>
+                  <li>
+                    <a href="#none">일일배달녹즙·음료 테스트3</a>
+                  </li>
+                  <li>
+                    <a href="#none">일일배달녹즙·음료 테스트3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">일일배달녹즙·음료 테스트4</a>
+                <ul>
+                  <li>
+                    <a href="#none">일일배달녹즙·음료 테스트4</a>
+                  </li>
+                  <li>
+                    <a href="#none">일일배달녹즙·음료 테스트4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#none">이유식·유아식</a>
+            <ul>
+              <li>
+                <a href="#none">이유식·유아식 테스트1</a>
+                <ul>
+                  <li>
+                    <a href="#none">이유식·유아식 테스트1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">이유식·유아식 테스트2</a>
+                <ul>
+                  <li>
+                    <a href="#none">이유식·유아식 테스트2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">이유식·유아식 테스트3</a>
+                <ul>
+                  <li>
+                    <a href="#none">이유식·유아식 테스트3</a>
+                  </li>
+                  <li>
+                    <a href="#none">이유식·유아식 테스트3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">이유식·유아식 테스트4</a>
+                <ul>
+                  <li>
+                    <a href="#none">이유식·유아식 테스트4</a>
+                  </li>
+                  <li>
+                    <a href="#none">이유식·유아식 테스트4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#none">잇슬림도시락</a>
+            <ul>
+              <li>
+                <a href="#none">잇슬림도시락 테스트1</a>
+                <ul>
+                  <li>
+                    <a href="#none">잇슬림도시락 테스트1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">잇슬림도시락 테스트2</a>
+                <ul>
+                  <li>
+                    <a href="#none">잇슬림도시락 테스트2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">잇슬림도시락 테스트3</a>
+                <ul>
+                  <li>
+                    <a href="#none">잇슬림도시락 테스트3</a>
+                  </li>
+                  <li>
+                    <a href="#none">잇슬림도시락 테스트3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">잇슬림도시락 테스트4</a>
+                <ul>
+                  <li>
+                    <a href="#none">잇슬림도시락 테스트4</a>
+                  </li>
+                  <li>
+                    <a href="#none">잇슬림도시락 테스트4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#none">생활·주방·반려용품</a>
+            <ul>
+              <li>
+                <a href="#none">생활·주방·반려용품 테스트1</a>
+                <ul>
+                  <li>
+                    <a href="#none">생활·주방·반려용품 테스트1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">생활·주방·반려용품 테스트2</a>
+                <ul>
+                  <li>
+                    <a href="#none">생활·주방·반려용품 테스트2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">생활·주방·반려용품 테스트3</a>
+                <ul>
+                  <li>
+                    <a href="#none">생활·주방·반려용품 테스트3</a>
+                  </li>
+                  <li>
+                    <a href="#none">생활·주방·반려용품 테스트3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">생활·주방·반려용품 테스트4</a>
+                <ul>
+                  <li>
+                    <a href="#none">생활·주방·반려용품 테스트4</a>
+                  </li>
+                  <li>
+                    <a href="#none">생활·주방·반려용품 테스트4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
           <li>
             <a href="#none">뷰티용품</a>
+            <ul>
+              <li>
+                <a href="#none">뷰티용품 테스트1</a>
+                <ul>
+                  <li>
+                    <a href="#none">뷰티용품 테스트1</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">뷰티용품 테스트2</a>
+                <ul>
+                  <li>
+                    <a href="#none">뷰티용품 테스트2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">뷰티용품 테스트3</a>
+                <ul>
+                  <li>
+                    <a href="#none">뷰티용품 테스트3</a>
+                  </li>
+                  <li>
+                    <a href="#none">뷰티용품 테스트3_2</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#none">뷰티용품 테스트4</a>
+                <ul>
+                  <li>
+                    <a href="#none">뷰티용품 테스트4</a>
+                  </li>
+                  <li>
+                    <a href="#none">뷰티용품 테스트4_2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -283,6 +764,7 @@ name: "navigation",
       display: flex;
       box-sizing: border-box;
       position: relative;
+      z-index: 100;
       height:40px;
       padding-left:160px;
       text-align: right;
@@ -304,6 +786,7 @@ name: "navigation",
         left:0;
         width: 140px;
         height:40px;
+        z-index: 2;
         .btn-category{
           position: relative;
           background:$main-color;
@@ -347,6 +830,9 @@ name: "navigation",
           border:2px solid $main-color;
           text-align: left;
           li{
+            ul{
+              display: none;
+            }
             a{
               display: block;
               box-sizing: border-box;
@@ -360,9 +846,7 @@ name: "navigation",
               text-align: left;
               vertical-align: middle;
             }
-            ul{
-              display: none;
-            }
+
             &:hover,
             &.active{
               >a{
@@ -373,30 +857,54 @@ name: "navigation",
                 }
               }
               ul{
-                position: absolute;
-                left:204px;
-                top:-2px;
-                bottom:0;
                 border:2px solid $main-color;
+                border-width: 2px 2px 2px 0;
+                position: absolute;
+                left:202px;
+                top:-2px;
+                bottom:-2px;
+                background: $white;
+                a{
+                  background: $white;
+                  color:$basic;
+                  font-weight: normal;
+                  &:hover{
+                    background: $category-light;
+                  }
+                }
               }
               >ul{
                 display: block;
+              }
+            }
+          }
+          >li{
+            &:hover> ul,
+            &.active> ul{
+              //border-width: 2px 0;
+              background: $category-light;
+              >li >a{
+                background: $category-light;
+                color:$basic;
+                font-weight: normal;
+                &:hover{
+                  background: $white;
+                }
+              }
+            }
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3){
+              >ul{
+                border-width: 2px 0;
                 background: $main-color;
-                a{
+                >li >a{
                   background: $main-color;
                   color:$white;
                   font-weight: bold;
                   &:hover{
                     background-color:$white;
                     color:$basic;
-                  }
-                }
-                li>ul{
-                  background: $white;
-                  a{
-                    background: $white;
-                    color:$basic;
-                    font-weight: normal;
                   }
                 }
               }

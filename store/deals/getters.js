@@ -1,4 +1,7 @@
 export default {
+    mainGallery(state) {
+        return state.mainGallery;
+    },
     dealItems(state) {
         return state.dealItems;
     },
@@ -10,6 +13,9 @@ export default {
     },
     newItems(state) {
         return state.newItems;
+    },
+    newItemsList(state) {
+        return state.newItemsList;
     },
     proposalItems(state) {
         return state.proposalItems;

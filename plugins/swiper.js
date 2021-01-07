@@ -8,7 +8,7 @@ Vue.use(VueAwesomeSwiper, {
   },
   loop: false,
   autoplay: {
-    delay: 3500,
+    delay: 350000,
     disableOnInteraction: false,
   },
   initialSlide: 0,

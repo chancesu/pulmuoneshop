@@ -135,11 +135,17 @@ a{
   flex-wrap: wrap;
 }
 .h3-title{
+  margin-bottom:40px;
   font-size:24px;
   font-weight: 300;
   img{
     vertical-align: middle;
   }
+}
+.main-banner .swiper-pagination-bullet-active{
+  background-color: $hover;
+  width:20px;
+  border-radius: 20px;
 }
 
 </style>

@@ -1,8 +1,10 @@
 export default {
+    mainGallery:[],
     dealItems: [],
     bestItems: [],
     halfBanner: [],
     newItems:[],
+    newItemsList:[],
     proposalItems:[],
     deliveryItems:[],
     eventItems:[],

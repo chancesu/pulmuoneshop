@@ -1,4 +1,8 @@
 export default {
+    UPDATE_MAIN_GALLERYS(state, items){
+        state.mainGallery = items;
+        console.log('UPDATE_MAIN_GALLERYS',items);
+    },
     UPDATE_DEAL_ITEMS(state, items) {
         state.dealItems = items || []
     },
@@ -21,8 +25,11 @@ export default {
         state.halfBanner = items[0];
         state.newItems = items.slice(1,4);
         state.proposalItems = items.slice(5,7);
-        state.deliveryItems = items.slice(8,11);
-        state.eventItems = items.slice(12,18);
+        state.deliveryItems = items.slice(9,12);
+        state.eventItems = items.slice(13,19);
         state.brandItems = items.slice(19,27);
+    },
+    UPDATE_NEW_ITEMS(state,items){
+        state.newItemsList = items;
     }
 };
