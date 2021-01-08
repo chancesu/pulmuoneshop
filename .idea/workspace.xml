@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49da6771-92a8-4f6f-ac7a-9e6d58f307ab" name="디폴트 변경 목록" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/home/goodDeal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/goodDeal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/bestProduct.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/bestProduct.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <workItem from="1609941315404" duration="9823000" />
       <workItem from="1609979244618" duration="7622000" />
       <workItem from="1610026921086" duration="7988000" />
-      <workItem from="1610090036000" duration="7026000" />
+      <workItem from="1610090036000" duration="7156000" />
     </task>
     <servers />
   </component>
