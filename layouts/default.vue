@@ -148,4 +148,16 @@ a{
   border-radius: 20px;
 }
 
+@media screen and (max-width: 500px){
+  .container{
+    min-width: 100%;
+  }
+  .h3-title{
+    padding-left:10px;
+    font-size:5vw;
+    img{
+      max-height:50px;
+    }
+  }
+}
 </style>

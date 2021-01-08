@@ -39,4 +39,11 @@ name: "halfBanner",
       text-indent: -1000em;
     }
   }
+  @media screen and (max-width: 768px) {
+    .half-banner{
+      width: 100%;
+      min-height:110px;
+     background-size: auto 70%;
+    }
+  }
 </style>

@@ -60,4 +60,14 @@ export default {
   opacity: 0.3;
 }
 }
+@media screen and (max-width: 920px) {
+  .main-banner {
+    min-height: 150px;
+    .swiper-container {
+      a img {
+        width: 100%;
+      }
+    }
+  }
+}
 </style>

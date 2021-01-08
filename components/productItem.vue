@@ -165,4 +165,9 @@ export default {
     }
   }
 }
+@media screen and (max-width: 500px){
+  .product-item{
+    margin: 0 auto !important;
+  }
+}
 </style>

@@ -61,6 +61,8 @@ export default {
     .product-view{
       position: relative;
       min-height:915px;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
       .item-list{
         position: absolute;
         top:18px;
@@ -77,6 +79,32 @@ export default {
           &:nth-child(2){
             margin-top:0;
           }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .new-product {
+      .product-view {
+        background-position: 0 0;
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .new-product{
+      padding:10px;
+      .product-view{
+        width: 100%;
+        background-repeat: repeat;
+        background-size: 140%;
+        background-position: 0 0;
+        padding-top:100%;
+        .item-list{
+          justify-content: center;
+          position: relative;
+          left:0;
+          width:100%;
+          margin:0 auto;
         }
       }
     }

@@ -42,7 +42,7 @@ name: "footer"
 <style lang="scss" scoped>
   .footer-wrap{
     .footer-link{
-      height: 60px;
+      min-height: 60px;
       padding:15px 0;
       border:1px solid #00400e;
       border-width: 1px 0;

@@ -50,4 +50,21 @@ export default {
     }
   }
 }
+@media screen and (max-width: 1020px) {
+  .main-event{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .h3-title{
+      width: 100%;
+      flex:none;
+    }
+    .event-item{
+      display: block;
+      &:nth-child(n){
+        margin:10px;
+      }
+    }
+  }
+}
 </style>

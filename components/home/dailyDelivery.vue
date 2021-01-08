@@ -42,4 +42,22 @@ export default {
     }
   }
 }
+@media screen and (max-width: 1020px) {
+  .daily-delivery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .h3-title{
+      width: 100%;
+      flex:none;
+    }
+    .daily-item{
+      display: block;
+      margin:0 auto;
+      &+.daily-item{
+        margin:10px auto;
+      }
+    }
+  }
+}
 </style>

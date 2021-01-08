@@ -122,4 +122,25 @@ name: "header.vue",
       }
     }
   }
+@media screen and (max-width: 768px) {
+  #header{
+    h1.brand-bi{
+      transform: scale(0.8);
+    }
+    #search-wrap{
+      width:50%;
+      margin-left:-25%;
+      input[type="text"]{
+        width: calc(100% - 20px);
+      }
+      .btn-search{
+        width:15px;
+        height:15px;
+      }
+    }
+    .util-menu{
+      display: none;
+    }
+  }
+}
 </style>

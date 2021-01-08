@@ -881,7 +881,6 @@ name: "navigation",
           >li{
             &:hover> ul,
             &.active> ul{
-              //border-width: 2px 0;
               background: $category-light;
               >li >a{
                 background: $category-light;
@@ -1018,12 +1017,21 @@ name: "navigation",
 
 @media screen and (max-width: 769px){
   #navigation{
-    .container a{
-      font-size:2vw;
-    }
-    #main-category{
-      .btn-category{
+    .container{
+      min-width: 100%;
+      box-sizing: border-box;
+      padding-left:50px;
+      a{
         font-size:2vw;
+      }
+      #main-category{
+        box-sizing: border-box;
+        width:50px;
+        .btn-category{
+          box-sizing: border-box;
+          width:50px;
+          text-indent: -1000em;
+        }
       }
     }
   }
