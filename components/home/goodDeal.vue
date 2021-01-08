@@ -73,12 +73,15 @@ name: "good-deal",
 }
 
 @media screen and (max-width: 990px){
-  .item-list {
-    width: 80%;
-    margin:0 auto;
-    .product-item {
-      &:nth-child(n) {
-        margin: 10px;
+  .good-deal {
+    .item-list {
+      justify-content: center;
+      width: 80%;
+      margin: 0 auto;
+      .product-item {
+        &:nth-child(n) {
+          margin: 10px;
+        }
       }
     }
   }
