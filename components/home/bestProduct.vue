@@ -76,13 +76,15 @@ export default {
     }
   }
   @media screen and (max-width: 1000px){
-    .item-list {
-      justify-content: center;
-      width: 90%;
-      margin:0 auto;
-      .product-item {
-        &:nth-child(n) {
-          margin: 10px;
+    .best-product{
+      .item-list {
+        justify-content: center;
+        width: 90%;
+        margin:0 auto;
+        .product-item {
+          &:nth-child(n) {
+            margin: 10px;
+          }
         }
       }
     }
