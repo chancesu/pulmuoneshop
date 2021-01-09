@@ -1,7 +1,6 @@
 import axios from 'axios'
 export default {
     async fetchMainGallery({ commit }) {
-        console.log('fetchMainGallery');
         try {
             const main = await axios.get('/config/indexHome.json')
             commit('UPDATE_MAIN_GALLERYS', main.data.bannerList)

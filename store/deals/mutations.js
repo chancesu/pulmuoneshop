@@ -1,7 +1,6 @@
 export default {
     UPDATE_MAIN_GALLERYS(state, items){
         state.mainGallery = items;
-        console.log('UPDATE_MAIN_GALLERYS',items);
     },
     UPDATE_DEAL_ITEMS(state, items) {
         state.dealItems = items || []
