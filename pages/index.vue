@@ -8,6 +8,7 @@
     <newProduct/>
     <dailyDelivery/>
     <mainEvent/>
+    <layerNotice/>
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import halfBanner from "@/home/halfBanner";
 import newProduct from "@/home/newProduct";
 import dailyDelivery from "@/home/dailyDelivery";
 import mainEvent from "@/home/mainEvent";
+import layerNotice from "@/layer"
 import { createNamespacedHelpers  } from 'vuex'
 
 const dealsHelper = createNamespacedHelpers('deals')
@@ -30,7 +32,8 @@ export default {
     halfBanner,
     newProduct,
     dailyDelivery,
-    mainEvent
+    mainEvent,
+    layerNotice
   },
   mounted() {
     this.fetchContent();
