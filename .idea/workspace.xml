@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49da6771-92a8-4f6f-ac7a-9e6d58f307ab" name="디폴트 변경 목록" comment="">
+      <change afterPath="$PROJECT_DIR$/plugins/ga.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/deals/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/deals/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/deals/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/deals/mutations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/plugins" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -47,6 +48,9 @@
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plugins" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
     </key>
@@ -71,7 +75,8 @@
       <workItem from="1609979244618" duration="7622000" />
       <workItem from="1610026921086" duration="7988000" />
       <workItem from="1610090036000" duration="7218000" />
-      <workItem from="1610199106707" duration="1485000" />
+      <workItem from="1610199106707" duration="1658000" />
+      <workItem from="1610381906592" duration="592000" />
     </task>
     <servers />
   </component>

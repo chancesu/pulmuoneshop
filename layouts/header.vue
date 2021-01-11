@@ -40,6 +40,11 @@ name: "header.vue",
   components: {
     navigation
   },
+  data(){
+    return{
+      searchKeyword:''
+    }
+  },
   methods:{
     ...homeModule.mapActions(["updateSearchKeyword"]),
     onClickSearch(keyword) {
